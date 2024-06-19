@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Get a Quote</title>
+</head>
+<body>
+    <header class="bg-white p-4 flex justify-between items-center">
+        <h1 class="text-red-600 text-2xl font-bold">GREYWIZ</h1>
+          <a href="./index.html" class="navbar-link" data-navbar-link>Home</a>
+        <!--<button class="bg-red-600 text-white px-4 py-2 rounded-full">HOME</button>-->
+    </header>
+    <main class="bg-cover bg-center h-screen flex flex-col items-center justify-center" style="background-image: url('./assets/images/image.png');">
+        <section class="text-center text-white mb-8">
+            <h2 class="text-3xl font-bold mb-4">Get a Quote</h2>
+            <p class="mb-4">Greywiz is a leading service-based company offering advanced AI solutions for manufacturing industries. Contact us today to get a customized quotation for your business</p>
+        </section>
+        <section class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-16">
+            <div class="text-white space-y-8">
+                <div class="flex items-center space-x-4">
+                    <img src="./assets/images/background.png" alt="location icon" class="w-10 h-10">
+                    <div>
+                        <h3 class="font-bold">Address</h3>
+                        <p>Basavanagudi, Bengaluru, Karnataka</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <img src="./assets/images/background1.png" alt="email icon" class="w-10 h-10">
+                    <div>
+                        <h3 class="font-bold">Email</h3>
+                        <p>greywizpvtltd@gmail.com</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <img src="./assets/images/background3.png"alt="phone icon" class="w-10 h-10">
+                    <div>
+                        <h3 class="font-bold">Phone No</h3>
+                        <p>9448334048</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+                <h3 class="text-red-600 text-xl font-bold mb-4">Send a Message</h3>
+                <form action="#" method="post" class="space-y-4">
+                    <input type="text" name="name" placeholder="Name" class="w-full p-3 border border-zinc-300 rounded">
+                    <input type="email" name="email" placeholder="Email" class="w-full p-3 border border-zinc-300 rounded">
+                    <textarea name="message" placeholder="Message" class="w-full p-3 border border-zinc-300 rounded"></textarea>
+                    <button type="submit" class="bg-red-600 text-white px-4 py-2 rounded-full w-full">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+<style type="text/css">
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #f56565;
+    outline: none;
+}
+
+button:hover {
+    background-color: #e53e3e;
+}
+</style>
+  </body>
+</html>
